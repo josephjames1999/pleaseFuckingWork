@@ -7,17 +7,19 @@ class MainViewController: UIViewController{
     
     override func viewDidLoad() {
       super.viewDidLoad()
-//
+
 //        mapView.userTrackingMode = .follow
 //
-        //locationManager.requestAlwaysAuthorization()
-        //locationManager.delegate = self
-        //locationManager.startUpdatingLocation()
-    
-        //override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-          //AppManager.shared.logout()
+//        locationManager.requestAlwaysAuthorization()
+//        locationManager.delegate = self
+//        locationManager.startUpdatingLocation()
+//
+//        override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//          AppManager.shared.logout()
 //        }
-    
+//
+//    }
+//
    // extension ViewController: MKMapViewDelegate{
 
 //        func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
