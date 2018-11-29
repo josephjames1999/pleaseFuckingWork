@@ -111,7 +111,7 @@ Dont Enjoy xx</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hm8-IL-gkw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="220" y="1272"/>
+            <point key="canvasLocation" x="-330" y="1338"/>
         </scene>
         <!--App Container View Controller-->
         <scene sceneID="q6b-U4-OZ2">
