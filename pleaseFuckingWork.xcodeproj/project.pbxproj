@@ -55,6 +55,7 @@
 			children = (
 				5BD1A41D21AC6787008A66FF /* pleaseFuckingWork */,
 				5BD1A41C21AC6787008A66FF /* Products */,
+				5B1A703421B0046300865B99 /* InstructionsViewController.swift */,
 				FE2B2514FD408EE5FAEE57CD /* Pods */,
 				622287FB6E4BBB7BF684D0FB /* Frameworks */,
 			);
@@ -77,7 +78,6 @@
 				5BD1A43021AC67BD008A66FF /* AppContainerViewController.swift */,
 				5BD1A43221AC6A44008A66FF /* AppManager.swift */,
 				5BD1A42221AC6787008A66FF /* Main.storyboard */,
-				5B1A703421B0046300865B99 /* InstructionsViewController.swift */,
 				5BD1A42521AC6788008A66FF /* Assets.xcassets */,
 				5BD1A42721AC6788008A66FF /* LaunchScreen.storyboard */,
 				5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */,
