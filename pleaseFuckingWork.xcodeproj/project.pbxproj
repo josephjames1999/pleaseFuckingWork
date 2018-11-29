@@ -17,6 +17,7 @@
 		5BD1A43121AC67BD008A66FF /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1A43021AC67BD008A66FF /* AppContainerViewController.swift */; };
 		5BD1A43321AC6A44008A66FF /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1A43221AC6A44008A66FF /* AppManager.swift */; };
 		5BD1A43521AC703D008A66FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1A43421AC703D008A66FF /* MainViewController.swift */; };
+		5BE1D48721B0082E0000E49D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5BD1A43021AC67BD008A66FF /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
 		5BD1A43221AC6A44008A66FF /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		5BD1A43421AC703D008A66FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		743A1F72A10A3ADDF2292013 /* Pods-pleaseFuckingWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pleaseFuckingWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pleaseFuckingWork/Pods-pleaseFuckingWork.debug.xcconfig"; sourceTree = "<group>"; };
 		AB0768C67DC089C220B0B595 /* Pods-pleaseFuckingWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pleaseFuckingWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-pleaseFuckingWork/Pods-pleaseFuckingWork.release.xcconfig"; sourceTree = "<group>"; };
 		C0C962C0B3136BDBA8E65EEF /* Pods_pleaseFuckingWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pleaseFuckingWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				5B1A703421B0046300865B99 /* InstructionsViewController.swift */,
 				5BD1A42521AC6788008A66FF /* Assets.xcassets */,
 				5BD1A42721AC6788008A66FF /* LaunchScreen.storyboard */,
+				5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */,
 				5BD1A42A21AC6788008A66FF /* Info.plist */,
 			);
 			path = pleaseFuckingWork;
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD1A42921AC6788008A66FF /* LaunchScreen.storyboard in Resources */,
+				5BE1D48721B0082E0000E49D /* GoogleService-Info.plist in Resources */,
 				5BD1A42621AC6788008A66FF /* Assets.xcassets in Resources */,
 				5BD1A42421AC6787008A66FF /* Main.storyboard in Resources */,
 			);
