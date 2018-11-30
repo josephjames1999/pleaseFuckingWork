@@ -1,5 +1,10 @@
 import UIKit
 import MapKit
+import NotificationCenter
+import UserNotificationsUI
+import UserNotifications
+import LocalAuthentication
+import CoreLocation
 
 class MainViewController: UIViewController{
     
@@ -7,6 +12,10 @@ class MainViewController: UIViewController{
     
     override func viewDidLoad() {
       super.viewDidLoad()
+        //        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in
+        //        })
+        
+        
 
 //        mapView.userTrackingMode = .follow
 //
