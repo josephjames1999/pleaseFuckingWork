@@ -3,11 +3,10 @@ import MapKit
 import CoreLocation
 
 class MainViewController2: UIViewController{
-    
+
     @IBOutlet var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +14,8 @@ class MainViewController2: UIViewController{
         mapView.userTrackingMode = .follow
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
+        locationManager.delegate = self
+        
         
         
         //        override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -45,5 +46,12 @@ extension MainViewController2: MKMapViewDelegate{
         
     }
     
+}
+
+extension UIViewController: CLLocationManagerDelegate{
+    
+    private func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) { print(locations.last!)
+    }
+
 }
 
