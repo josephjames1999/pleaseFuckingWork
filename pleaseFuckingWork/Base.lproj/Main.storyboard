@@ -24,7 +24,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcV-16-cZY">
-                                <rect key="frame" x="166" y="90" width="41" height="21"/>
+                                <rect key="frame" x="165.5" y="90" width="41" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -128,11 +128,11 @@ Dont Enjoy xx</string>
             </objects>
             <point key="canvasLocation" x="-494" y="430"/>
         </scene>
-        <!--Main View Controller-->
+        <!--Main View Controller2-->
         <scene sceneID="s0E-Fq-gwB">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" id="pVj-pg-Mvf" customClass="MainViewController" customModule="pleaseFuckingWork" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="CgH-dc-Ra6">
+                <viewController storyboardIdentifier="MainViewController" id="pVj-pg-Mvf" customClass="MainViewController2" customModule="pleaseFuckingWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" id="CgH-dc-Ra6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </mapView>
@@ -142,7 +142,7 @@ Dont Enjoy xx</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gf2-Zw-JeX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="228" y="430"/>
+            <point key="canvasLocation" x="231" y="430"/>
         </scene>
     </scenes>
 </document>

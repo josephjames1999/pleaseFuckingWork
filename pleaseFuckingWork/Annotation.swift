@@ -18,5 +18,5 @@ class CustomAnnotation: NSObject, MKAnnotation {
 class Address: NSObject {
     var latitude:CLLocationDegrees?
     var longitude:CLLocationDegrees?
-    var title = ""
+    var title = "HELP"
 }

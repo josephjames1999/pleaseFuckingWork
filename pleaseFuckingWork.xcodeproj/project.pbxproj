@@ -20,6 +20,7 @@
 		5BD1A43521AC703D008A66FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1A43421AC703D008A66FF /* MainViewController.swift */; };
 		5BE1D48721B0082E0000E49D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */; };
 		6F74EACC21B94708000689B3 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74EACB21B94708000689B3 /* Annotation.swift */; };
+		6F74EAD021B95263000689B3 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6F74EACF21B95263000689B3 /* Location.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		5BD1A43421AC703D008A66FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F74EACB21B94708000689B3 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		6F74EACF21B95263000689B3 /* Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		743A1F72A10A3ADDF2292013 /* Pods-pleaseFuckingWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pleaseFuckingWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pleaseFuckingWork/Pods-pleaseFuckingWork.debug.xcconfig"; sourceTree = "<group>"; };
 		AB0768C67DC089C220B0B595 /* Pods-pleaseFuckingWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pleaseFuckingWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-pleaseFuckingWork/Pods-pleaseFuckingWork.release.xcconfig"; sourceTree = "<group>"; };
 		C0C962C0B3136BDBA8E65EEF /* Pods_pleaseFuckingWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pleaseFuckingWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 		5BD1A41D21AC6787008A66FF /* pleaseFuckingWork */ = {
 			isa = PBXGroup;
 			children = (
+				6F74EACF21B95263000689B3 /* Location.gpx */,
 				5BD1A41E21AC6787008A66FF /* AppDelegate.swift */,
 				5BD1A42021AC6787008A66FF /* LoginViewController.swift */,
 				5BD1A43421AC703D008A66FF /* MainViewController.swift */,
@@ -172,6 +175,7 @@
 			files = (
 				5BD1A42921AC6788008A66FF /* LaunchScreen.storyboard in Resources */,
 				5BE1D48721B0082E0000E49D /* GoogleService-Info.plist in Resources */,
+				6F74EAD021B95263000689B3 /* Location.gpx in Resources */,
 				5BD1A42621AC6788008A66FF /* Assets.xcassets in Resources */,
 				5BD1A42421AC6787008A66FF /* Main.storyboard in Resources */,
 			);
