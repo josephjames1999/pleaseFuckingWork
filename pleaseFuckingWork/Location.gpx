@@ -3,17 +3,58 @@
     
    
     <wpt lat="50.717312" lon="-1.879833">
-        <name>Cupertino</name>
+        <name>talbotCampus</name>
         <time>2014-09-24T14:55:37Z</time>
     </wpt>
     
     
-    <wpt lat="" lon="">
-        <name>Cupertino</name>
-        <time>2014-09-24T14:55:37Z</time>
+    <wpt lat="50.715272" lon="-1.875261">
+        <name>pierCoordinate</name>
+        <time>2014-09-24T14:55:43Z</time>
     </wpt>
     
+    <wpt lat="50.727023" lon="-1.863535">
+        <name>trainStation</name>
+        <time>2014-09-24T14:55:49Z</time>
+    </wpt>
     
+    <wpt lat="50.720034" lon="-1.842798">
+        <name>lowerGardens</name>
+        <time>2014-09-24T14:55:52Z</time>
+    </wpt>
     
+    <wpt lat="50.718016" lon="-1.842798">
+        <name>boscombePier</name>
+        <time>2014-09-24T14:55:58Z</time>
+    </wpt>
     
+    <wpt lat="50.726550" lon="-1.840026">
+        <name>boscombeO2</name>
+        <time>2014-09-24T14:56:04Z</time>
+    </wpt>
+    
+    <wpt lat="50.723168" lon="-1.864835">
+        <name>oldFireStation</name>
+        <time>2014-09-24T14:56:10Z</time>
+    </wpt>
+    
+    <wpt lat="50.718726" lon="-1.854374">
+        <name>beachAtBoscombe</name>
+        <time>2014-09-24T14:56:16Z</time>
+    </wpt>
+    
+    <wpt lat="50.726442" lon="-1.865087">
+        <name>asda</name>
+        <time>2014-09-24T14:56:22Z</time>
+    </wpt>
+    
+    <wpt lat="50.719579" lon="-1.880173">
+        <name>moonInTheSquare</name>
+        <time>2014-09-24T14:56:28Z</time>
+    </wpt>
+
+    <wpt lat="50.718995" lon="-1.879883">
+        <name>odeonCinema</name>
+        <time>2014-09-24T14:56:34Z</time>
+    </wpt>
 </gpx>
