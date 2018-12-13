@@ -16,11 +16,25 @@ class LoginViewController: UIViewController{
         
         guard let email = emailTextField.text, let password = passwordViewController.text else { return }
         
-        Auth.auth().signIn(withEmail: email, password: password) {user, error in
-            if let _ = user{
-                self.dismiss(animated: true, completion: nil)
-                
+        Auth.auth().signIn(withEmail: email, password: password) { result, error in
+            if let user = result?.user {
+                self.setupUserRef(user: user)
             }
         }
     }
+    
+    func setupUserRef(user: User) {
+        
+        let data = [
+            "score": 0
+        ]
+        
+        let ref = Firestore.firestore().collection("users").document(user.uid)
+        ref.setData(data) { error in
+            self.dismiss(animated: true, completion: nil)
+        }
+        
+    }
+    
+    
 }
