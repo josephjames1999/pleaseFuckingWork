@@ -1,6 +1,7 @@
 import UIKit
 import MapKit
-import CoreLocation
+import Firebase
+
 
 class MainViewController2: UIViewController{
 
@@ -22,8 +23,24 @@ class MainViewController2: UIViewController{
         //          AppManager.shared.logout()
         //        }
         
+        loadLocations()
         
     }
+    
+    
+    func loadLocations() {
+        
+        let ref = Firestore.firestore().collection("locaions")
+        ref.getDocuments { snapshot, error in
+            guard let snapshot = snapshot else { return }
+            for document in snapshot.documents {
+                let annotation = CustomAnnotation(document: document)
+                self.mapView.addAnnotation(annotation)
+            }
+        }
+        
+    }
+    
 }
 extension MainViewController2: MKMapViewDelegate{
     

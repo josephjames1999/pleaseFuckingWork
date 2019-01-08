@@ -12,8 +12,8 @@ class MainViewController: UIViewController{
     
     override func viewDidLoad() {
       super.viewDidLoad()
-        //        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in
-        //        })
+                UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in
+                })
         
         
 

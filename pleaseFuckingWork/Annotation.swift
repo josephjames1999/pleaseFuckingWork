@@ -1,22 +1,22 @@
 import Foundation
 import UIKit
 import MapKit
+import Firebase
 
 class CustomAnnotation: NSObject, MKAnnotation {
     
-    var coordinate: CLLocationCoordinate2D
+    var point: GeoPoint
+    
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: point.latitude, longitude: point.longitude)
+    }
+
     var title: String?
     
-    init(address: Address) {
-        self.coordinate = CLLocationCoordinate2D(latitude: address.latitude!, longitude: address.longitude!)
-        self.title = address.title
+    init(document: QueryDocumentSnapshot) {
+        self.point = document.data()["coordinate"] as! GeoPoint
+        self.title = document.data()["name"] as? String
     }
     
     
-}
-
-class Address: NSObject {
-    var latitude:CLLocationDegrees?
-    var longitude:CLLocationDegrees?
-    var title = "HELP"
 }
