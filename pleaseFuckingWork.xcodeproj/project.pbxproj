@@ -17,7 +17,6 @@
 		5BD1A42921AC6788008A66FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1A42721AC6788008A66FF /* LaunchScreen.storyboard */; };
 		5BD1A43121AC67BD008A66FF /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1A43021AC67BD008A66FF /* AppContainerViewController.swift */; };
 		5BD1A43321AC6A44008A66FF /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1A43221AC6A44008A66FF /* AppManager.swift */; };
-		5BD1A43521AC703D008A66FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1A43421AC703D008A66FF /* MainViewController.swift */; };
 		5BE1D48721B0082E0000E49D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */; };
 		6F74EACC21B94708000689B3 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74EACB21B94708000689B3 /* Annotation.swift */; };
 		6F74EAD021B95263000689B3 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6F74EACF21B95263000689B3 /* Location.gpx */; };
@@ -37,7 +36,6 @@
 		5BD1A42A21AC6788008A66FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD1A43021AC67BD008A66FF /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
 		5BD1A43221AC6A44008A66FF /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
-		5BD1A43421AC703D008A66FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5BE1D48621B0082E0000E49D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F74EACB21B94708000689B3 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		6F74EACF21B95263000689B3 /* Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 				6F74EACF21B95263000689B3 /* Location.gpx */,
 				5BD1A41E21AC6787008A66FF /* AppDelegate.swift */,
 				5BD1A42021AC6787008A66FF /* LoginViewController.swift */,
-				5BD1A43421AC703D008A66FF /* MainViewController.swift */,
 				3382756521B93B06001020F8 /* MainViewController2.swift */,
 				6FED30F221C2793A00E8D312 /* Player.swift */,
 				5B1A703421B0046300865B99 /* InstructionsViewController.swift */,
@@ -282,7 +279,6 @@
 				5BD1A41F21AC6787008A66FF /* AppDelegate.swift in Sources */,
 				5BD1A43121AC67BD008A66FF /* AppContainerViewController.swift in Sources */,
 				5BD1A43321AC6A44008A66FF /* AppManager.swift in Sources */,
-				5BD1A43521AC703D008A66FF /* MainViewController.swift in Sources */,
 				6F74EACC21B94708000689B3 /* Annotation.swift in Sources */,
 				6FED30F321C2793A00E8D312 /* Player.swift in Sources */,
 				6FED30F521C27FE800E8D312 /* CreateUser.swift in Sources */,

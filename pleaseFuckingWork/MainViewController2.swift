@@ -1,6 +1,7 @@
 import UIKit
 import MapKit
 import Firebase
+import UserNotifications
 
 
 class MainViewController2: UIViewController{
@@ -8,6 +9,7 @@ class MainViewController2: UIViewController{
     @IBOutlet var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
+    var lastVisited: CustomAnnotation?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,9 @@ class MainViewController2: UIViewController{
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
         locationManager.delegate = self
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in
+        })
         
         
         
@@ -60,14 +65,34 @@ extension MainViewController2: MKMapViewDelegate{
         
         return view
         
-        
     }
+    
+    
+    func testDistanceToPoints(from location: CLLocation) {
+        for annotation in mapView.annotations {
+            if let annotation = annotation as? CustomAnnotation {
+                let distance = location.distance(from: annotation.location)
+                if distance < 250 && annotation != lastVisited {
+                    lastVisited = annotation
+                    sendNotification()
+                }
+            }
+        }
+    }
+    
+    func sendNotification() {
+   
+    }
+    
     
 }
 
-extension UIViewController: CLLocationManagerDelegate{
+extension MainViewController2: CLLocationManagerDelegate {
     
-    private func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) { print(locations.last!)
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let location = locations.last else { return }
+        testDistanceToPoints(from: location)
+        
     }
 
 }
